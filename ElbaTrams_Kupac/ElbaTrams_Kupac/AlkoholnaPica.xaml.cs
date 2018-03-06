@@ -28,6 +28,7 @@ namespace ElbaTrams_Kupac
             items.Add(new CjenikAlkohol() { Drink = "Ožujsko", Price = 15 });
             items.Add(new CjenikAlkohol() { Drink = "Graševina", Price = 20 });
             alkoholCjenik.ItemsSource = items;
+            List<string> list = new List<string>(); 
         }
         public class CjenikAlkohol
         {

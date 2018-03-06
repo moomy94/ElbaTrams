@@ -28,11 +28,25 @@ namespace ElbaTrams_Kupac
             sidemenuKategorije.Visibility = Visibility.Hidden;
         }
 
+
+        public class Cjenik
+        {
+            public string drinkCjenik
+            {
+                get;
+                set;
+            }
+            public string cijenaCjenik
+            {
+                get;
+                set;
+            }
+        }
+
         private void Screensaver(object sender, EventArgs e)
         {
             Panel.SetZIndex(MainButton, -1);
             BackButton.Visibility = Visibility.Hidden;
-
         }
         private void ToplaPica(object sender, EventArgs e)
         {
