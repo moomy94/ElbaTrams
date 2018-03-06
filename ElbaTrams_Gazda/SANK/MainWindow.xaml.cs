@@ -25,9 +25,8 @@ namespace SANK
             InitializeComponent();
             SignIn LogInWindow = new SignIn();
             LogInWindow.Show();
-            
             this.Hide();
-            
+         
         }
 
        
@@ -35,7 +34,6 @@ namespace SANK
         {
             SignIn LoginWindow = new SignIn();
             LoginWindow.Show();
-
             this.Hide();
         }
     }
