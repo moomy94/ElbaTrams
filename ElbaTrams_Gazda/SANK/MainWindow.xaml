@@ -1,0 +1,25 @@
+﻿<Window x:Class="SANK.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SANK"
+        mc:Ignorable="d"
+        Title="SmarTable test" Height="auto" Width="auto">
+    <Grid>
+        <Button x:Name="botun2" Grid.Column="1" Margin="200 200" Grid.Row="1">klik</Button>
+        <Frame Grid.Column="1" Grid.Row="1" x:Name="Main" NavigationUIVisibility="Hidden" HorizontalAlignment="Center" Height="452" Margin="0,2,10,0" Width="674" VerticalAlignment="Top" />
+        <Image Grid.Column="1" HorizontalAlignment="Right" Source="Resources\logoclear2.png"></Image>
+        <Button x:Name="SignOutButton" Grid.Row="1" Grid.Column="0" Margin="10 200" Click="SignOutButton_Click"> Sign out</Button>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+                
+    </Grid>
+</Window>
