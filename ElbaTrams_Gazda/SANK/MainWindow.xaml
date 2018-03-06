@@ -11,7 +11,7 @@
         <Image Source="Resources/elbatramsCLEAR.png" Panel.ZIndex="1" />
 
         <StackPanel x:Name="sidemenuGazda" Grid.Row="1" VerticalAlignment="Center" Panel.ZIndex="1">
-            <Button Content="Računi" MinHeight="30"/>
+            <Button Content="Račun cangr cangr" MinHeight="30"/>
             <Button Content="Inventar" MinHeight="30" Margin="0,60,0,0"/>
             <Button Content="Opcije" MinHeight="30" Margin="0,60,0,0"/>
         </StackPanel>
